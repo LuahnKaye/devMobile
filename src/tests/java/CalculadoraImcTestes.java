@@ -10,12 +10,12 @@ public class CalculadoraImcTestes {
 
     CalculadoraImc calc;
 
-    @Before // condição inicial de cada método
+    @Before
     public void setup() {
         calc = new CalculadoraImc();
     }
 
-    @After // condição final de cada método
+    @After
     public void tearDown() {
         calc = null;
     }
