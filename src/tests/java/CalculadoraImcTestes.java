@@ -70,7 +70,7 @@ public class CalculadoraImcTestes {
         Assert.assertEquals("Obesidade grau III (obesidade mórbida)", calc.calcularImc(1.84, 137.0, 68,"masculino"));
     }
 
-    // idosA
+    // idosa
 
     @Test
     public void idosaBaixoPeso() {
@@ -193,7 +193,7 @@ public class CalculadoraImcTestes {
         Assert.assertEquals("Obesidade grau III (obesidade mórbida)", calc.calcularImc(1.63, 146.0, 56,"feminino"));
     }
 
-    // meninO 2 anos
+    // menino 2 anos
 
     @Test
     public void meninoDoisAnosBaixoPeso() {
@@ -217,7 +217,7 @@ public class CalculadoraImcTestes {
     }
 
 
-    // meninO 4 anos
+    // menino 4 anos
 
     @Test
     public void meninoQuatroAnosBaixoPeso() {
@@ -240,7 +240,7 @@ public class CalculadoraImcTestes {
     }
 
 
-    // meninO 6 anos
+    // menino 6 anos
 
     @Test
     public void meninoSeisAnosBaixoPeso() {
@@ -262,7 +262,7 @@ public class CalculadoraImcTestes {
         Assert.assertEquals("Obesidade", calc.calcularImc(1.12, 25.0, 6,"masculino"));
     }
 
-    // meninO 8 anos
+    // menino 8 anos
 
     @Test
     public void meninoOitoAnosBaixoPeso() {
@@ -284,7 +284,7 @@ public class CalculadoraImcTestes {
         Assert.assertEquals("Obesidade", calc.calcularImc(1.40, 40.0, 8,"masculino"));
     }
 
-    // meninO 10 anos
+    // menino 10 anos
 
     @Test
     public void meninoDezAnosBaixoPeso() {
@@ -306,7 +306,7 @@ public class CalculadoraImcTestes {
         Assert.assertEquals("Obesidade", calc.calcularImc(1.34, 41.0, 10,"masculino"));
     }
 
-    // meninO 12 anos
+    // menino 12 anos
 
     @Test
     public void meninoDozeAnosBaixoPeso() {
@@ -328,7 +328,7 @@ public class CalculadoraImcTestes {
         Assert.assertEquals("Obesidade", calc.calcularImc(1.55, 59.0, 12,"masculino"));
     }
 
-    // meninA 2 anos
+    // menina 2 anos
 
     @Test
     public void meninaDoisAnosBaixoPeso() {
@@ -352,7 +352,7 @@ public class CalculadoraImcTestes {
     }
 
 
-    // meninA 4 anos
+    // menina 4 anos
 
     @Test
     public void meninaQuatroAnosBaixoPeso() {
@@ -375,7 +375,7 @@ public class CalculadoraImcTestes {
     }
 
 
-    // meninA 6 anos
+    // menina 6 anos
 
     @Test
     public void meninaSeisAnosBaixoPeso() {
@@ -397,7 +397,7 @@ public class CalculadoraImcTestes {
         Assert.assertEquals("Obesidade", calc.calcularImc(1.03, 24.0, 6,"feminino"));
     }
 
-    // meninA 8 anos
+    // menina 8 anos
 
     @Test
     public void meninaOitoAnosBaixoPeso() {
@@ -419,7 +419,7 @@ public class CalculadoraImcTestes {
         Assert.assertEquals("Obesidade", calc.calcularImc(1.26, 33.0, 8,"feminino"));
     }
 
-    // meninA 10 anos
+    // menina 10 anos
 
     @Test
     public void meninaDezAnosBaixoPeso() {
@@ -441,7 +441,7 @@ public class CalculadoraImcTestes {
         Assert.assertEquals("Obesidade", calc.calcularImc(1.37, 46.0, 10,"feminino"));
     }
 
-    // meninA 12 anos
+    // menina 12 anos
 
     @Test
     public void meninaDozeAnosBaixoPeso() {
