@@ -1,0 +1,402 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF8F8"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Pergunta 1 -->
+        <TextView
+            android:id="@+id/tvQuestion1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Você olha pra mulher dos outros?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbQ1A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre" />
+
+            <RadioButton
+                android:id="@+id/rbQ1A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Respeito a minha esposa" />
+
+            <RadioButton
+                android:id="@+id/rbQ1A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nem tenho" />
+
+            <RadioButton
+                android:id="@+id/rbQ1A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente" />
+        </RadioGroup>
+
+        <!-- Pergunta 2 -->
+        <TextView
+            android:id="@+id/tvQuestion2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Você mente para evitar conflitos?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbQ2A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca" />
+
+            <RadioButton
+                android:id="@+id/rbQ2A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente" />
+
+            <RadioButton
+                android:id="@+id/rbQ2A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Às vezes" />
+
+            <RadioButton
+                android:id="@+id/rbQ2A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente" />
+        </RadioGroup>
+
+        <!-- Pergunta 3 -->
+        <TextView
+            android:id="@+id/tvQuestion3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Você chaveca a mulher do próximo?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbQ3A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre" />
+
+            <RadioButton
+                android:id="@+id/rbQ3A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Não tenho coragem" />
+
+            <RadioButton
+                android:id="@+id/rbQ3A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Às vezes" />
+
+            <RadioButton
+                android:id="@+id/rbQ3A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jamais" />
+        </RadioGroup>
+
+        <!-- Pergunta 4 -->
+        <TextView
+            android:id="@+id/tvQuestion4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Você trairia sua mulher?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbQ4A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca" />
+
+            <RadioButton
+                android:id="@+id/rbQ4A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quem sabe" />
+
+            <RadioButton
+                android:id="@+id/rbQ4A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Aguas passadas" />
+
+            <RadioButton
+                android:id="@+id/rbQ4A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Facilmente" />
+        </RadioGroup>
+
+        <!-- Pergunta 5 -->
+        <TextView
+            android:id="@+id/tvQuestion5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5. Você é leal a sua esposa?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbQ5A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre" />
+
+            <RadioButton
+                android:id="@+id/rbQ5A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Na maioria das vezes" />
+
+            <RadioButton
+                android:id="@+id/rbQ5A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Até que sim" />
+
+            <RadioButton
+                android:id="@+id/rbQ5A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sou safado" />
+        </RadioGroup>
+
+        <!-- Pergunta 6 -->
+        <TextView
+            android:id="@+id/tvQuestion6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6. Você já contou pra sua mulher com quem você já ficou?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbQ6A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca" />
+
+            <RadioButton
+                android:id="@+id/rbQ6A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nem quero" />
+
+            <RadioButton
+                android:id="@+id/rbQ6A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Não lembro" />
+
+            <RadioButton
+                android:id="@+id/rbQ6A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Muitas histórias" />
+        </RadioGroup>
+
+        <!-- Pergunta 7 -->
+        <TextView
+            android:id="@+id/tvQuestion7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7. Você já foi traido?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbQ7A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca" />
+
+            <RadioButton
+                android:id="@+id/rbQ7A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Não que eu saiba" />
+
+            <RadioButton
+                android:id="@+id/rbQ7A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Provavelmente" />
+
+            <RadioButton
+                android:id="@+id/rbQ7A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente" />
+        </RadioGroup>
+
+        <!-- Pergunta 8 -->
+        <TextView
+            android:id="@+id/tvQuestion8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8. Você é ciumento?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbQ8A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre" />
+
+            <RadioButton
+                android:id="@+id/rbQ8A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Na maioria das vezes" />
+
+            <RadioButton
+                android:id="@+id/rbQ8A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Às vezes" />
+
+            <RadioButton
+                android:id="@+id/rbQ8A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente" />
+        </RadioGroup>
+
+        <!-- Pergunta 9 -->
+        <TextView
+            android:id="@+id/tvQuestion9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9. Você se aproveitaria de alguém para alcançar seus objetivos?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbQ9A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nunca" />
+
+            <RadioButton
+                android:id="@+id/rbQ9A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente" />
+
+            <RadioButton
+                android:id="@+id/rbQ9A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Às vezes" />
+
+            <RadioButton
+                android:id="@+id/rbQ9A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Frequentemente" />
+        </RadioGroup>
+
+        <!-- Pergunta 10 -->
+        <TextView
+            android:id="@+id/tvQuestion10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10. Você é honesto em suas relações pessoais?"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/rgQuestion10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rbQ10A1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sempre" />
+
+            <RadioButton
+                android:id="@+id/rbQ10A2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Na maioria das vezes" />
+
+            <RadioButton
+                android:id="@+id/rbQ10A3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Às vezes" />
+
+            <RadioButton
+                android:id="@+id/rbQ10A4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Raramente" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="32dp"
+            android:text="Enviar"></Button>
+        <!--            android:backgroundTint="@color/button_color"-->
+        <!--            android:textColor="@android:color/white"/>-->
+    </LinearLayout>
+</ScrollView>
